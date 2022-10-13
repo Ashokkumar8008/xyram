@@ -15,16 +15,18 @@
         <a href="#">Contact</a>
         <a href="#">more</a>
     </nav>
-    <form class="" action="main.html" method="post" name="myform" onsubmit="return validateform()">
-        enter name:<input type="text" name="mname" value=""><br>
+    <form class="" action="index.html" method="post" name="myform" onsubmit="return validateform()">
+        enter Usename:<input type="text" name="mname" value=""><br>
+        enter password:<input type="password" name="mpass" value="">
         <input type="submit" name="" value="submit">
     </form>
     <script type="text/javascript">
         function validateform() {
-            var data=document.forms["myform"]["mname"].values;
-            if(data == ""){
-                alert("plz fill the form");
-                return false;
+            var uname=document.forms["myform"]["mname"].value;
+            var upass=document.forms["myform"]["mpass"].value;
+            if(Uname == "ashok" && upass =="ram"){
+                // alert("plz fill the form");
+                return true;
             }
         }
     </script>
