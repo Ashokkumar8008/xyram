@@ -5,7 +5,8 @@ function validate(){
         text = "Enter valid username and password";
       
       document.getElementById("error1").innerHTML = text;
-    
+      document.getElementById("error").innerHTML = "";
+      document.getElementById("errors").innerHTML = "";
         return false;
     }
     else{
