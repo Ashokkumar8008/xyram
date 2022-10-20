@@ -29,6 +29,7 @@ h1 {
     /* border: 35px; */
     border-radius: 15px;
     text-align: left;
+    padding-left: 15px;
 }
 #error{
     color: red;
@@ -40,6 +41,7 @@ h1 {
     /* border: 35px; */
     border-radius: 15px;
     text-align: left;
+    padding-left: 15px;
 }
 #errors{
     color: red;
@@ -52,6 +54,7 @@ h1 {
     /* padding: 20px; */
     text-align: center;
     background-color: pink;
+    cursor: pointer;
 
 }
 #error1{
@@ -77,11 +80,12 @@ a {
     margin: 5px;
     border-radius: 5px;
     background: transparent;
-    color: black;
+    color: rgb(151, 126, 126);
     cursor: pointer;
     position: relative;
     font-size: large;
     height: 30px;
+    background-color: aqua;
 }
 
 a {
