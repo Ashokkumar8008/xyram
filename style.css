@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&dispay=swap');
+
+*{
+    box-sizing:border-box;
+}
+body {
+    background-color: aliceblue;
+    font-family: 'open sans',sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0,0,0,3);
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+}
+h2 {
+    text-align: center;
+    margin: 0 0 20px;
+}
+.form {
+    padding: 20px 40px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+button {
+  position: relative;
+  left: 126px;
+}
+
+
+
+/* function validate(){
+    var username=document.getElementById("username");
+    var password=document.getElementById("password");
+    if(username.value =="" && password.value==""){
+        text = "Enter valid username and password";
+      
+      document.getElementById("error1").innerHTML = text;
+      document.getElementById("error").innerHTML = "";
+      document.getElementById("errors").innerHTML = "";
+        return false;
+    }
+    else{
+        document.getElementById("error1").innerHTML = "";
+  
+    }
+    if(password.value=="" || username.value >1){
+        password="Enter valid password"
+          document.getElementById("errors").innerHTML = password;
+          document.getElementById("error").innerHTML = "";
+
+    return false;
+       }
+    
+    else{
+        document.getElementById("errors").innerHTML = "";
+    }
+   if(username.value=="" || password.value>1){
+    username="enter the valid name"
+    document.getElementById("error").innerHTML = username;
+    document.getElementById("errors").innerHTML = "";
+
+return false;
+   }
+   else{
+    document.getElementById("error").innerHTML = "";
+
+   }
+   
+} */
